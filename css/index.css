@@ -1,3 +1,13 @@
+.center {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+.center-mobile {
+  max-width: 90%;
+  width: 100%;
+  margin: 0 auto;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -132,6 +142,78 @@ table {
 html {
   font-size: 62.5%;
 }
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 3.2rem;
+  padding-bottom: 10px;
+}
+h4 {
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+}
+p,
+a {
+  line-height: 1.5;
+  font-size: 1.6rem;
+}
+.container {
+  max-width: 1500px;
+  width: 100%;
+  margin: 0 auto;
+}
 nav {
   background: orangered;
+  display: flex;
+}
+nav div {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  padding-bottom: 0.5%;
+}
+nav div h2 {
+  font-family: 'Shadows Into Light', cursive;
+  color: white;
+  font-size: 6.5rem;
+}
+nav div a {
+  width: 10%;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  margin: 0.5% 0 0 0;
+  font-size: 4rem;
+  color: white;
+}
+nav div button {
+  background-color: black;
+  cursor: pointer;
+  width: 150px;
+  font-size: 2rem;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  box-shadow: 0 1px #999;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+nav div button:active {
+  color: black;
+  background-color: white;
+}
+nav div button:hover {
+  background-color: white;
+  color: black;
+}
+.top-section {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: aqua;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
