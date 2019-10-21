@@ -1,3 +1,13 @@
+.center {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+.center-mobile {
+  max-width: 90%;
+  width: 100%;
+  margin: 0 auto;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -134,4 +144,38 @@ html {
 }
 nav {
   background: orangered;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2% 8% 5% 8%;
+  background-color: lightgray;
+}
+header div .widescreen-img {
+  max-width: 90%;
+}
+header div h1 {
+  text-align: center;
+  padding-bottom: 4%;
+  font-size: 3rem;
+}
+header div p {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 1.6rem;
+}
+.top-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
