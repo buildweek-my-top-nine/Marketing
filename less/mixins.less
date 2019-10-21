@@ -1,27 +1,42 @@
 // Mixins in here
 .border-bot() {
-    border-bottom: 2px dashed @navigation-border;
+  border-bottom: 2px dashed @navigation-border;
 }
-
 
 .centered() {
-    justify-content: center;
-    align-items: center;
+  justify-content: center;
+  align-items: center;
 }
- 
+//
+.center {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+.center-mobile {
+  max-width: 90%;
+  width: 100%;
+  margin: 0 auto;
+}
+
 //PARAMETRIC MIXIN //
 
-.button(@bg-color, @txt-color, @width) {
-    background-color: @bg-color;
-    cursor: pointer;
-    width: @width;
-    height: 45px;
-    font-size: 2rem;
-    border-radius: 10px;
-    color: @txt-color;
-    text-align: center;
-    padding-top: 5%;
-    padding-bottom: 10%;
-    
+.display(@direction,@jc-center,@ai-center) {
+  display: flex;
+  flex-direction: @direction;
+  justify-content: @jc-center;
+  align-items: @ai-center;
 }
 
+.button(@bg-color, @txt-color, @width) {
+  background-color: @bg-color;
+  cursor: pointer;
+  width: @width;
+  height: 45px;
+  font-size: 2rem;
+  border-radius: 10px;
+  color: @txt-color;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 10%;
+}
