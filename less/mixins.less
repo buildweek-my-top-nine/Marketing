@@ -32,11 +32,21 @@
   background-color: @bg-color;
   cursor: pointer;
   width: @width;
-  height: 45px;
   font-size: 2rem;
   border-radius: 10px;
   color: @txt-color;
   text-align: center;
-  padding-top: 5%;
-  padding-bottom: 10%;
+  box-shadow: 0 1px #999;
+
+  &:active {
+    color: black;
+    background-color: white;
+    
+  }
+
+  &:hover {
+    background-color: @txt-color;
+    color: @bg-color;
+  }
+
 }
