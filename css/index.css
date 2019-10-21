@@ -1,5 +1,6 @@
 .center {
-  max-width: 800px;
+
+  max-width: 1000px;
   width: 100%;
   margin: 0 auto;
 }
@@ -212,6 +213,40 @@ nav div button:hover {
   width: 100%;
   margin: 0 auto;
   background-color: aqua;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2% 8% 5% 8%;
+  background-color: lightgray;
+}
+header div .widescreen-img {
+  max-width: 90%;
+}
+header div h1 {
+  text-align: center;
+  padding-bottom: 4%;
+  font-size: 3rem;
+}
+header div p {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 1.6rem;
+}
+.top-section {
   display: flex;
   flex-direction: row;
   justify-content: center;
