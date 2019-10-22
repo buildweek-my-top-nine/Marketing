@@ -1,5 +1,4 @@
 .center {
-
   max-width: 1000px;
   width: 100%;
   margin: 0 auto;
@@ -208,23 +207,14 @@ nav div button:hover {
   background-color: white;
   color: black;
 }
-.top-section {
-  max-width: 800px;
-  width: 100%;
-  margin: 0 auto;
-  background-color: aqua;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
 header {
+  margin-top: 3%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-header div {
+header .image-box {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -232,23 +222,93 @@ header div {
   padding: 2% 8% 5% 8%;
   background-color: lightgray;
 }
-header div .widescreen-img {
+header .image-box .widescreen-img {
   max-width: 90%;
 }
-header div h1 {
+header .image-box h1 {
   text-align: center;
   padding-bottom: 4%;
   font-size: 3rem;
 }
-header div p {
+header .image-box p {
   max-width: 1000px;
   width: 100%;
   margin: 0 auto;
   font-size: 1.6rem;
+}
+header .quotes {
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header .quotes p {
+  width: 50%;
+  text-align: center;
+  font-size: 2rem;
+  padding: 2%;
 }
 .top-section {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  background-color: #ffffff;
+}
+.top-section .laptop-pic {
+  max-width: 55%;
+}
+.top-section .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10%;
+  margin-right: 2%;
+}
+.top-section .content p {
+  font-size: 2rem;
+}
+.middle-section {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+.middle-section .people-pic {
+  max-width: 55%;
+}
+.middle-section .mid-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 3%;
+  margin-right: 10%;
+}
+.middle-section .mid-content p {
+  font-size: 2rem;
+}
+.bottom-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+.bottom-section .laptop-pic {
+  max-width: 55%;
+}
+.bottom-section .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10%;
+  margin-right: 2%;
+}
+.bottom-section .content p {
+  font-size: 2rem;
 }
