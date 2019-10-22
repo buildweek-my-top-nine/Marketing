@@ -141,6 +141,7 @@ table {
 }
 html {
   font-size: 62.5%;
+  font-family: 'Abel', sans-serif;
 }
 h1 {
   font-size: 4rem;
@@ -174,8 +175,9 @@ nav h2 {
   justify-content: center;
   align-items: center;
   color: gray;
-  font-size: 2.5rem;
+  font-size: 3rem;
   width: 30%;
+  margin-top: 1.5%;
 }
 nav .nav-bar {
   display: flex;
@@ -202,29 +204,29 @@ nav div.btn {
   margin-top: 1%;
 }
 nav div.btn button {
-  background-color: black;
+  background-color: #d9d9d9;
   cursor: pointer;
   width: 100px;
   font-size: 2rem;
-  border-radius: 10px;
-  color: white;
+  border-radius: 5px;
+  color: black;
   text-align: center;
-  box-shadow: 0 1px #999;
   margin-top: 1%;
   margin-bottom: 1%;
   font-size: 1.6rem;
+  padding-top: 5%;
+  padding-bottom: 5%;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-color: #0f1626;
 }
 nav div.btn button:active {
   color: black;
   background-color: white;
 }
 nav div.btn button:hover {
-  background-color: white;
+  background-color: darkgray;
   color: black;
 }
 header {
@@ -267,7 +269,6 @@ header .quotes p {
   width: 50%;
   text-align: center;
   font-size: 2rem;
-  padding: 2%;
 }
 .top-section {
   display: flex;
@@ -365,18 +366,13 @@ h1 {
   cursor: pointer;
   width: 100px;
   font-size: 2rem;
-  border-radius: 10px;
+  border-radius: 5px;
   color: white;
   text-align: center;
-  box-shadow: 0 1px #999;
 }
 .sign-bot .bot-btn:active {
   color: black;
   background-color: white;
-}
-.sign-bot .bot-btn:hover {
-  background-color: white;
-  color: black;
 }
 input[type=text],
 select,
@@ -406,8 +402,10 @@ label {
   background-color: #f2f2f2;
   padding: 10px;
 }
-.contact-head {
+.contact-top .contact-head {
   text-align: center;
+  margin-top: 2%;
+  margin-bottom: 1%;
 }
 .row {
   display: flex;
@@ -417,13 +415,6 @@ label {
   content: "";
   display: table;
   clear: both;
-}
-@media (max-width: 500px) {
-  .column,
-  input[type=submit] {
-    width: 100%;
-    margin-top: 0;
-  }
 }
 .contact-header {
   margin-bottom: 3%;
@@ -443,6 +434,7 @@ label {
 }
 .team1 h3 {
   font-size: 3rem;
+  margin-top: 4%;
 }
 .team1 div {
   text-align: center;
@@ -464,16 +456,48 @@ label {
 }
 .team2 h3 {
   font-size: 3rem;
+  margin-top: 3%;
 }
 .team2 div {
   text-align: center;
 }
 .team2 div p {
   margin: 0 auto;
-  padding-top: 3%;
+  margin-top: 2%;
   width: 70%;
 }
 .portrait {
   border-radius: 5px;
   width: 80%;
+}
+@media (max-width: 500px) {
+  nav {
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+  }
+  nav div {
+    width: 100%;
+    border-top: 1px solid black;
+  }
+  nav h2 {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+  }
+  nav a {
+    width: 100%;
+    font-size: 2.5rem;
+  }
+  .column,
+  input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+  .team1 {
+    flex-direction: column;
+  }
+  .team2 {
+    flex-direction: column;
+  }
 }
