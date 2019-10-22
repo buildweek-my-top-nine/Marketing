@@ -1,4 +1,5 @@
 header {
+
   margin-top: 2%;
   .display(column, center, center);
 
@@ -105,10 +106,23 @@ h1 {
 .sign-bot {
   display: flex;
   flex-direction: column;
+  width: 70%;
+  margin: 0 auto;
 
   .centered();
-  .bot-btn {
+  button {
     .centered();
-    .button(black, white, 100px);
+    .button(#d9d9d9,black,100px);
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-size: 1.6rem;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    .display(row, center, center);
+    &:hover {
+      background-color: darkgray;
+      color: black;
   }
+  
+}
 }
