@@ -191,7 +191,7 @@ nav .nav-bar a {
   justify-content: center;
   margin: 0.5% 0 0 0;
   font-size: 2rem;
-  color: lightgray;
+  color: black;
 }
 nav div.btn {
   display: flex;
@@ -240,7 +240,7 @@ header .image-box {
   justify-content: center;
   align-items: center;
   padding: 2% 8% 5% 8%;
-  background-color: lightgray;
+  background-color: #d9d9d9;
 }
 header .image-box .widescreen-img {
   max-width: 90%;
@@ -274,12 +274,13 @@ header .quotes p {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-color: #ffffff;
+  background-color: #f9c400;
 }
 .top-section .laptop-pic {
   max-width: 55%;
 }
 .top-section .content {
+  color: black;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -295,7 +296,7 @@ header .quotes p {
   flex-direction: row-reverse;
   justify-content: center;
   align-items: center;
-  background-color: #ffffff;
+  background-color: #4484ce;
 }
 .middle-section .people-pic {
   max-width: 55%;
@@ -316,7 +317,7 @@ header .quotes p {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-color: #ffffff;
+  background-color: #f19f4d;
 }
 .bottom-section .laptop-pic {
   max-width: 55%;
@@ -337,6 +338,7 @@ h1 {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  color: darkslategrey;
 }
 .categories {
   max-width: 1000px;

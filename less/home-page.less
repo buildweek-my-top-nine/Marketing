@@ -6,7 +6,7 @@ header {
     .display(column, center, center);
 
     padding: 2% 8% 5% 8%;
-    background-color: lightgray;
+    background-color: #d9d9d9;
 
     .widescreen-img {
       max-width: 90%;
@@ -37,13 +37,15 @@ header {
 
 .top-section {
   .display(row, center, center);
-  background-color: @bg-color;
+
+  background-color: #f9c400;
 
   .laptop-pic {
     max-width: 55%;
   }
 
   .content {
+    color: black;
     .display(column, center, center);
     margin-left: 10%;
     margin-right: 2%;
@@ -55,7 +57,7 @@ header {
 
 .middle-section {
   .display(row-reverse, center, center);
-  background-color: @bg-color;
+  background-color: #4484ce;
 
   .people-pic {
     max-width: 55%;
@@ -72,7 +74,7 @@ header {
 
 .bottom-section {
   .display(row, center, center);
-  background-color: @bg-color;
+  background-color: #f19f4d;
 
   .laptop-pic {
     max-width: 55%;
@@ -88,6 +90,7 @@ header {
 }
 h1 {
   .display(row, center, center);
+  color: darkslategrey;
 }
 .categories {
   .center();
@@ -102,12 +105,10 @@ h1 {
 .sign-bot {
   display: flex;
   flex-direction: column;
- 
+
   .centered();
   .bot-btn {
     .centered();
-    .button(black,white, 100px);
-    
-    }
+    .button(black, white, 100px);
   }
-
+}
