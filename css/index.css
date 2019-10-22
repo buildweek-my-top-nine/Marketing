@@ -164,33 +164,46 @@ a {
   margin: 0 auto;
 }
 nav {
-  background: orangered;
   display: flex;
+  justify-content: space-around;
 }
-nav div {
+nav h2 {
+  font-family: "Shadows Into Light", cursive;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: gray;
+  font-size: 2.5rem;
+  width: 30%;
+}
+nav .nav-bar {
   display: flex;
   width: 100%;
   justify-content: space-evenly;
   padding-bottom: 0.5%;
 }
-nav div h2 {
-  font-family: 'Shadows Into Light', cursive;
-  color: white;
-  font-size: 6.5rem;
-}
-nav div a {
+nav .nav-bar a {
   width: 10%;
   text-decoration: none;
+  padding-top: 1.5%;
   align-items: center;
   justify-content: center;
   margin: 0.5% 0 0 0;
-  font-size: 4rem;
-  color: white;
+  font-size: 2rem;
+  color: lightgray;
 }
-nav div button {
+nav div.btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2%;
+}
+nav div.btn button {
   background-color: black;
   cursor: pointer;
-  width: 150px;
+  width: 100px;
   font-size: 2rem;
   border-radius: 10px;
   color: white;
@@ -198,17 +211,23 @@ nav div button {
   box-shadow: 0 1px #999;
   margin-top: 1%;
   margin-bottom: 1%;
+  font-size: 1.6rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #0f1626;
 }
-nav div button:active {
+nav div.btn button:active {
   color: black;
   background-color: white;
 }
-nav div button:hover {
+nav div.btn button:hover {
   background-color: white;
   color: black;
 }
 header {
-  margin-top: 3%;
+  margin-top: 2%;
   display: flex;
   flex-direction: column;
   justify-content: center;
