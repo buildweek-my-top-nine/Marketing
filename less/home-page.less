@@ -1,7 +1,8 @@
 header {
+  margin-top: 3%;
   .display(column, center, center);
 
-  div {
+  .image-box {
     .display(column, center, center);
 
     padding: 2% 8% 5% 8%;
@@ -20,12 +21,68 @@ header {
       .center();
       font-size: 1.6rem;
     }
+  } // end of image-box
+  .quotes {
+    padding: 5%;
+    .display(column, center, center);
+
+    p {
+      width: 50%;
+      text-align: center;
+      font-size: 2rem;
+      padding: 2%;
+    }
   }
-}
+} // =========== end of header ==========
 
 .top-section {
   .display(row, center, center);
+  background-color: @bg-color;
 
-  h1 {
+  .laptop-pic {
+    max-width: 55%;
+  }
+
+  .content {
+    .display(column, center, center);
+    margin-left: 10%;
+    margin-right: 2%;
+    p {
+      font-size: 2rem;
+    }
+  }
+} // ======   end of top-section =========
+
+.middle-section {
+  .display(row-reverse, center, center);
+  background-color: @bg-color;
+
+  .people-pic {
+    max-width: 55%;
+  }
+  .mid-content {
+    .display(column, center, center);
+    margin-left: 3%;
+    margin-right: 10%;
+    p {
+      font-size: 2rem;
+    }
+  }
+}
+
+.bottom-section {
+  .display(row, center, center);
+  background-color: @bg-color;
+
+  .laptop-pic {
+    max-width: 55%;
+  }
+  .content {
+    .display(column, center, center);
+    margin-left: 10%;
+    margin-right: 2%;
+    p {
+      font-size: 2rem;
+    }
   }
 }
