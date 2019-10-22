@@ -36,12 +36,18 @@ nav {
     margin-top: 1%;
 
     button {
-      .button(black, white, 100px);
+      .button(#d9d9d9, black, 100px);
       margin-top: 1%;
       margin-bottom: 1%;
       font-size: 1.6rem;
+      padding-top: 5%;
+      padding-bottom: 5%;
       .display(row, center, center);
-      background-color: #0f1626;
+      &:hover {
+        background-color: darkgray;
+        color: black;
+      }
+      
     }
   }
 }
