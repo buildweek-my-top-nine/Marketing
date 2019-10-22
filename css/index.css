@@ -488,9 +488,11 @@ label {
   nav h2 {
     margin: 0 auto;
     text-align: center;
+    width: 100%;
   }
   nav a {
     width: 100%;
+    font-size: 2.5rem;
   }
   .column,
   input[type=submit] {
