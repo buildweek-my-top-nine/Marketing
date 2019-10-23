@@ -1,9 +1,6 @@
 #bg {
-//   background-color: #36669d;
-// background-image: linear-gradient(315deg, #36669d 0%, #d3d3d3 74%);
-
-
-
+  //   background-color: #36669d;
+  // background-image: linear-gradient(315deg, #36669d 0%, #d3d3d3 74%);
 }
 
 input[type="text"],
@@ -21,12 +18,14 @@ input[type="submit"] {
   background-color: orangered;
   color: white;
   padding: 12px 20px;
+  border-radius: 5px;
   .border-contact();
   cursor: pointer;
 }
 
 input[type="submit"]:hover {
   background-color: red;
+  border-radius: 10px;
 }
 
 label {
@@ -36,7 +35,6 @@ label {
 .contact-top {
   .border-contact();
   border-radius: 5px;
-  // background-color: #f2f2f2;
   background-color: #f1f2f6;
   background-image: linear-gradient(315deg, #f1f2f6 0%, #c9c6c6 74%);
   padding: 10px;
@@ -44,7 +42,9 @@ label {
     text-align: center;
     margin-top: 2%;
     margin-bottom: 1%;
-    
+    h2 {
+      font-weight: bold;
+    }
   }
 }
 
@@ -103,7 +103,6 @@ label {
 
 .team2 {
   .border-contact();
-  // background: #f2f2f2;
   border-radius: 5px;
   background-color: #f1f2f6;
   background-image: linear-gradient(315deg, #f1f2f6 0%, #c9c6c6 74%);
@@ -142,15 +141,26 @@ label {
   margin-top: 2%;
   color: black;
   cursor: pointer;
-  
 }
 
 .fa-twitter {
-  color: #1DA1F2;
+  color: #1da1f2;
+  &:hover {
+    color: #4db3f3;
+  }
 }
 
 .fa-linkedin {
-  color: #2867B2;
+  color: #2867b2;
+  &:hover {
+    color: #6f98ca;
+  }
+}
+
+.fa-github {
+  &:hover {
+    color: #3f4853;
+  }
 }
 
 
@@ -159,7 +169,6 @@ label {
     margin-top: 2%;
     display: flex;
     flex-direction: column;
-
     div {
       width: 100%;
       border-top: 1px solid black;
@@ -172,7 +181,6 @@ label {
     a {
       width: 100%;
       font-size: 3rem;
-      // border-bottom: 1px solid black;
     }
   }
   .column,
@@ -190,4 +198,3 @@ label {
     margin-bottom: 4%;
   }
 }
-

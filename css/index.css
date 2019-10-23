@@ -531,11 +531,13 @@ input[type="submit"] {
   background-color: orangered;
   color: white;
   padding: 12px 20px;
+  border-radius: 5px;
   border: 1px solid black;
   cursor: pointer;
 }
 input[type="submit"]:hover {
   background-color: red;
+  border-radius: 10px;
 }
 label {
   font-size: 1.5rem;
@@ -551,6 +553,9 @@ label {
   text-align: center;
   margin-top: 2%;
   margin-bottom: 1%;
+}
+.contact-top .contact-head h2 {
+  font-weight: bold;
 }
 .row {
   display: flex;
@@ -647,10 +652,19 @@ label {
   cursor: pointer;
 }
 .fa-twitter {
-  color: #1DA1F2;
+  color: #1da1f2;
+}
+.fa-twitter:hover {
+  color: #4db3f3;
 }
 .fa-linkedin {
-  color: #2867B2;
+  color: #2867b2;
+}
+.fa-linkedin:hover {
+  color: #6f98ca;
+}
+.fa-github:hover {
+  color: #3f4853;
 }
 @media (max-width: 500px) {
   nav {
