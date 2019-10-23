@@ -484,8 +484,6 @@ h1.pagebreak {
 .connect .connect-img {
   display: flex;
   flex-direction: column;
-  width: 70%;
-  margin: 0 auto;
   justify-content: center;
   align-items: center;
   max-width: 40%;
@@ -493,13 +491,8 @@ h1.pagebreak {
 .connect .connect-img .image {
   width: 80%;
 }
-
-=======
 .connect .bot-btn {
-  justify-content: center;
-  align-items: center;
-  background-color: black;
-
+  background-color: #d9d9d9;
   cursor: pointer;
   width: 100px;
   font-size: 2rem;
@@ -516,13 +509,11 @@ h1.pagebreak {
   justify-content: center;
   align-items: center;
 }
-
 .connect .bot-btn:active {
-
   color: black;
   background-color: white;
 }
-.sign-bot button:hover {
+.connect .bot-btn:hover {
   background-color: darkgray;
   color: black;
 }
@@ -552,7 +543,8 @@ label {
 .contact-top {
   border: 1px solid black;
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background-color: #f1f2f6;
+  background-image: linear-gradient(315deg, #f1f2f6 0%, #c9c6c6 74%);
   padding: 10px;
 }
 .contact-top .contact-head {
@@ -571,7 +563,9 @@ label {
 }
 .contact-header {
   margin-bottom: 3%;
-  background: #f2f2f2;
+  border-radius: 5px;
+  background-color: #f1f2f6;
+  background-image: linear-gradient(315deg, #f1f2f6 0%, #c9c6c6 74%);
   padding-top: 2%;
   padding-bottom: 2%;
   border: 1px solid black;
@@ -582,11 +576,13 @@ label {
 }
 .team1 {
   border: 1px solid black;
-  background: #f2f2f2;
+  background-color: #f1f2f6;
+  background-image: linear-gradient(315deg, #f1f2f6 0%, #c9c6c6 74%);
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
+  border-radius: 5px;
   padding-top: 3%;
   padding-bottom: 2%;
   margin-bottom: 5%;
@@ -610,7 +606,9 @@ label {
 }
 .team2 {
   border: 1px solid black;
-  background: #f2f2f2;
+  border-radius: 5px;
+  background-color: #f1f2f6;
+  background-image: linear-gradient(315deg, #f1f2f6 0%, #c9c6c6 74%);
   padding-top: 3%;
   padding-bottom: 2%;
   display: flex;
@@ -637,7 +635,7 @@ label {
   width: 70%;
 }
 .portrait {
-  border-radius: 5px;
+  border-radius: 40px;
   width: 80%;
   border: 1px solid black;
 }
