@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=Abel&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Lobster|Pacifico|Shadows+Into+Light&display=swap"
         rel="stylesheet" />
+
     <title>My Top Nine</title>
 </head>
 
@@ -19,8 +20,8 @@
             <h2>My Top Nine</h2>
             <div class="nav-bar">
                 <a href="index.html">Home</a>
-                <a href="">About</a>
-                <a href="#">Categories</a>
+                <a href="#about">About</a>
+                <a href="#categories">Categories</a>
                 <a href="contact.html">Contact</a>
             </div>
             <div class="btn">
@@ -40,10 +41,10 @@
             </div>
         </header>
         <div>
-            <h1>How we work</h1>
+            <h1 id="about">How we work</h1>
         </div>
     </div>
-    <section>
+    <section class="mobile">
         <!-- How we work-->
 
         <div class="top-section">
@@ -78,12 +79,12 @@
                     dolorum inventore nobis!
                 </p>
             </div>
-            <img src="img/sunset.jpg" alt="laptop picture" class="laptop-pic" />
+            <img src="img/sunset.jpg" alt="laptop picture" class="sunset-pic" />
         </div>
     </section>
     <!-- end of section-->
-    <h1 class="pagebreak">Category</h1>
-    <section class=" categories">
+    <h1 id="categories" class="pagebreak">Categories</h1>
+    <section class="categories">
         <div class="box box1">
             <h2>Sports</h2>
             <p>
@@ -149,7 +150,7 @@
             </p>
         </div>
         <div class="box box9">
-            <h2>Video games</h2>
+            <h2>Makeup</h2>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste architecto, cum, ab enim pariatur porro
                 dolorum facilis, quo numquam consequatur qui similique iusto nulla. Hic sapiente impedit dolorum
@@ -157,20 +158,35 @@
             </p>
         </div>
     </section>
-    <section class="sign-bot">
-        <div>
+    <section class="connect">
+        <div class="connect-img">
+            <img src="img/trends.jpg" alt="girls looking at phone" class="image" />
+        </div>
+        <div class="connect-img">
+            <h2>How To Get Connected</h2>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste architecto, cum, ab enim pariatur porro
                 dolorum facilis, quo numquam consequatur qui similique iusto nulla. Hic sapiente impedit dolorum
                 inventore nobis!
             </p>
+
         </div>
         <div class="btn">
             <button>Sign Up</button>
+
         </div>
 
     </section>
-    <footer></footer>
+    <footer>
+        <nav>
+            <div class="nav-bar">
+                <a href="index.html">Home</a>
+                <a href="#about">About</a>
+                <a href="#categories">Categories</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </nav>
+    </footer>
 </body>
 
 </html>
