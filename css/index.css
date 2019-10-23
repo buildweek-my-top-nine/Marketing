@@ -406,7 +406,7 @@ h1.pagebreak {
   background-color: darkgray;
   color: black;
 }
-input[type=text],
+input[type="text"],
 select,
 textarea {
   width: 100%;
@@ -416,20 +416,21 @@ textarea {
   margin-bottom: 16px;
   resize: vertical;
 }
-input[type=submit] {
+input[type="submit"] {
   background-color: orangered;
   color: white;
   padding: 12px 20px;
   border: 1px solid black;
   cursor: pointer;
 }
-input[type=submit]:hover {
+input[type="submit"]:hover {
   background-color: red;
 }
 label {
   font-size: 1.5rem;
 }
 .contact-top {
+  border: 1px solid black;
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 10px;
@@ -453,8 +454,14 @@ label {
   background: #f2f2f2;
   padding-top: 2%;
   padding-bottom: 2%;
+  border: 1px solid black;
+}
+.contact-header h2 {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 5rem;
 }
 .team1 {
+  border: 1px solid black;
   background: #f2f2f2;
   display: flex;
   flex-direction: row;
@@ -465,8 +472,13 @@ label {
   margin-bottom: 5%;
 }
 .team1 h3 {
+  margin: 0 auto;
   font-size: 3rem;
   margin-top: 4%;
+  width: 40%;
+  font-weight: bold;
+  padding-bottom: 2%;
+  border-bottom: 1px solid black;
 }
 .team1 div {
   text-align: center;
@@ -477,6 +489,7 @@ label {
   width: 70%;
 }
 .team2 {
+  border: 1px solid black;
   background: #f2f2f2;
   padding-top: 3%;
   padding-bottom: 2%;
@@ -487,8 +500,13 @@ label {
   margin-bottom: 5%;
 }
 .team2 h3 {
+  margin: 0 auto;
   font-size: 3rem;
-  margin-top: 3%;
+  margin-top: 4%;
+  width: 41%;
+  font-weight: bold;
+  padding-bottom: 2%;
+  border-bottom: 1px solid black;
 }
 .team2 div {
   text-align: center;
@@ -501,6 +519,20 @@ label {
 .portrait {
   border-radius: 5px;
   width: 80%;
+  border: 1px solid black;
+}
+.fab {
+  font-size: 4rem;
+  margin-right: 2%;
+  margin-top: 2%;
+  color: black;
+  cursor: pointer;
+}
+.fa-twitter {
+  color: #1DA1F2;
+}
+.fa-linkedin {
+  color: #2867B2;
 }
 @media (max-width: 500px) {
   nav {
@@ -522,7 +554,7 @@ label {
     font-size: 3rem;
   }
   .column,
-  input[type=submit] {
+  input[type="submit"] {
     width: 100%;
     margin-top: 0;
   }
@@ -531,5 +563,8 @@ label {
   }
   .team2 {
     flex-direction: column;
+  }
+  .fab {
+    margin-bottom: 4%;
   }
 }
