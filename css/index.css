@@ -203,6 +203,9 @@ nav div.btn {
   margin-right: 2%;
   margin-top: 1%;
 }
+nav div.btn a {
+  text-decoration: none;
+}
 nav div.btn button {
   background-color: #d9d9d9;
   cursor: pointer;
@@ -655,7 +658,7 @@ label {
   color: #1da1f2;
 }
 .fa-twitter:hover {
-  color: #4db3f3;
+  color: #5cbaf5;
 }
 .fa-linkedin {
   color: #2867b2;
