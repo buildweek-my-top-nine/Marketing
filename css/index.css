@@ -197,7 +197,7 @@ nav .nav-bar a {
 }
 nav div.btn {
   display: flex;
-  flex-direction: row;
+  flex-direction: column-reverse;
   justify-content: center;
   align-items: center;
   margin-right: 2%;
@@ -205,9 +205,10 @@ nav div.btn {
 }
 nav div.btn a {
   text-decoration: none;
+  text-align: center;
 }
 nav div.btn button {
-  background-color: #d9d9d9;
+  background-color: #f9c400;
   cursor: pointer;
   width: 100px;
   font-size: 2rem;
