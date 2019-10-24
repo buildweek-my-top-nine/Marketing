@@ -467,13 +467,6 @@ h1.pagebreak {
   background-repeat: no-repeat;
   border-radius: 0.5%;
 }
-@media (max-width: 500px) {
-  .categories {
-    max-width: 90%;
-    width: 100%;
-    margin: 0 auto;
-  }
-}
 .categories .box {
   height: 15%;
   width: 25%;
@@ -499,6 +492,17 @@ h1.pagebreak {
 .categories p {
   color: black;
   text-align: center;
+}
+@media (max-width: 500px) {
+  .categories {
+    max-width: 90%;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .categories .box4 {
+    margin-top: 0;
+    margin-bottom: 5.5%;
+  }
 }
 .connect {
   display: flex;
@@ -529,9 +533,16 @@ h1.pagebreak {
   align-items: center;
   max-width: 40%;
 }
+.connect .connect-img a {
+  text-decoration: none;
+  font-size: 4rem;
+  color: black;
+  margin-top: 3%;
+}
 @media (max-width: 500px) {
   .connect .connect-img {
     max-width: 100%;
+    margin-bottom: 3%;
   }
   .connect .connect-img p {
     margin: 2%;
