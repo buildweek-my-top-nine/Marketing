@@ -536,8 +536,14 @@ h1.pagebreak {
 .connect .connect-img a {
   text-decoration: none;
   font-size: 4rem;
-  color: black;
-  margin-top: 3%;
+  color: #382929;
+  margin-top: 5%;
+  margin-right: 7%;
+}
+@media (max-width: 500px) {
+  .connect .connect-img a {
+    margin-right: 1%;
+  }
 }
 @media (max-width: 500px) {
   .connect .connect-img {
