@@ -186,7 +186,7 @@ nav .nav-bar {
   padding-bottom: 0.5%;
 }
 nav .nav-bar a {
-  width: 10%;
+  width: auto;
   text-decoration: none;
   padding-top: 1.5%;
   align-items: center;
