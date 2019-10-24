@@ -1,5 +1,4 @@
 header {
-
   margin-top: 2%;
   .display(column, center, center);
 
@@ -63,13 +62,15 @@ header {
 
   .laptop-pic {
     @media @phone {
-      max-width: 95%;
-      padding-top: 1%;
+      max-width: 100%;
     }
     max-width: 55%;
   }
 
   .content {
+    @media @phone {
+      margin: 5%;
+    }
     color: black;
     .display(column, center, center);
     margin-left: 10%;
@@ -89,12 +90,14 @@ header {
 
   .people-pic {
     @media @phone {
-      max-width: 95%;
-      padding-top: 1%;
+      max-width: 100%;
     }
     max-width: 55%;
   }
   .mid-content {
+    @media @phone {
+      margin: 5%;
+    }
     .display(column, center, center);
     margin-left: 3%;
     margin-right: 10%;
@@ -113,12 +116,14 @@ header {
 
   .sunset-pic {
     @media @phone {
-      max-width: 95%;
-      padding-top: 1%;
+      max-width: 100%;
     }
     max-width: 55%;
   }
   .content {
+    @media @phone {
+      margin: 5%;
+    }
     .display(column, center, center);
     margin-left: 10%;
     margin-right: 2%;
@@ -157,13 +162,11 @@ h1.pagebreak {
   border-radius: 0.5%;
 
   .box {
-    
     .portrait1 {
       border-radius: 20px;
       width: 78%;
       height: 180px;
       margin: 0 0 5% 11%;
-      
     }
     @media @phone {
       width: 40%;
@@ -182,24 +185,31 @@ h1.pagebreak {
   p {
     color: black;
     text-align: center;
-    
   }
 
   // boxes 3, 6, 9 no border
 } // ======= ennd of categories =====
 
-
 .connect {
+  @media @phone {
+    .display(column, center, center);
+  }
   .display(row, center, center);
   .center();
   border-top: 1px solid grey;
-  border-bottom: 1px solid grey;
+  // border-bottom: 1px solid grey;
   padding-top: 3%;
   padding-bottom: 3%;
   margin-top: 3%;
   margin-bottom: 3%;
 
   .connect-img {
+    @media @phone {
+      max-width: 100%;
+      p {
+        margin: 2%;
+      }
+    }
     .display(column, center, center);
     max-width: 40%;
 

@@ -9,10 +9,21 @@ footer {
   .nav-bar {
     @media @phone {
       .center-mobile();
+      width: 90%;
+      .display(column, center, center);
+
+      a {
+        width: 50%;
+        text-align: center;
+        border-bottom: 1px solid black;
+      }
     }
     width: 40%;
     background-color: lightgray;
     margin-top: 2%;
     padding-bottom: 2%;
+    a {
+      text-align: center;
+    }
   }
 }
