@@ -2,15 +2,15 @@
 
 nav {
   display: flex;
+  margin-top: 10px;
   justify-content: space-around;
 
   h2 {
     font-family: "Shadows Into Light", cursive;
     .display(row, center, center);
     color: gray;
-    font-size: 3rem;
+    font-size: 5rem;
     width: 30%;
-    margin-top: 1.5%;
   }
   .nav-bar {
     display: flex;
@@ -27,6 +27,9 @@ nav {
       font-size: 2rem;
       color: black;
       // font-family: "Shadows Into Light", cursive;
+      &:hover {
+        color: lightgrey;
+      }
     }
   }
   div.btn {
@@ -36,20 +39,26 @@ nav {
     a {
       text-decoration: none;
       text-align: center;
+      &:hover {
+        color: lightgrey;
+      }
     }
 
     button {
       .button(#f9c400, black, 100px);
+      font-family: "Shadows Into Light", cursive;
+      font-weight: bold;
+      border: 3px solid rgb(56, 41, 41);
 
       margin-top: 1%;
       margin-bottom: 1%;
-      font-size: 1.6rem;
-      padding-top: 8%;
-      padding-bottom: 8%;
+      font-size: 2rem;
+      // padding-top: 8%;
+      // padding-bottom: 8%;
       .display(row, center, center);
       &:hover {
-        background-color: darkgray;
-        color: black;
+        background-color: rgb(56, 41, 41);
+        color: white;
       }
     }
   }
