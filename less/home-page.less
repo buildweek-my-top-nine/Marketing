@@ -4,12 +4,11 @@ header {
 
   .image-box {
     .display(column, center, center);
-
     padding: 2% 8% 5% 8%;
     background-color: #d9d9d9;
 
     .widescreen-img {
-      max-width: 90%;
+      max-width: 100%;
     }
 
     h1 {
@@ -159,7 +158,6 @@ h1.pagebreak {
   border-radius: 0.5%;
 
   .box {
-    
     .portrait1 {
       border-radius: 20px;
       width: 78%;
@@ -168,7 +166,6 @@ h1.pagebreak {
     }
     @media @phone {
       width: 40%;
-    
     }
     height: 15%;
     width: 25%;
@@ -191,21 +188,12 @@ h1.pagebreak {
       margin-top: 0;
       margin-bottom: 5.5%;
     }
-    
-   
   }
 
   // boxes 3, 6, 9 no border
 } // ======= ennd of categories =====
 
 .connect {
-  .connect-img {
-    .btn2{
-      a {
-
-      }
-    }
-  }
   @media @phone {
     .display(column, center, center);
   }
@@ -219,14 +207,22 @@ h1.pagebreak {
   margin-bottom: 3%;
 
   .connect-img {
-    a{
-      // border: 3px solid #d9d9d9;
-      // border-radius: 10px;
+    a {
+      border: 3px solid rgb(56, 41, 41);
+      background-color: rgb(56, 41, 41);
+      padding-left: 3%;
+      padding-right: 3%;
+      border-radius: 10px;
       text-decoration: none;
       font-size: 4rem;
-      color: rgb(56, 41, 41);
+      color: white;
+
       margin-top: 5%;
       margin-right: 7%;
+      &:hover {
+        background-color: #f9c400;
+        color: rgb(56, 41, 41);
+      }
       @media @phone {
         margin-right: 1%;
       }
@@ -247,5 +243,3 @@ h1.pagebreak {
     }
   }
 }
-
-
